@@ -13,6 +13,8 @@
 		3CEAC7F91A1BCF13003A577C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CEAC7F81A1BCF13003A577C /* Images.xcassets */; };
 		3CEAC7FC1A1BCF13003A577C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CEAC7FA1A1BCF13003A577C /* LaunchScreen.xib */; };
 		3CEAC8081A1BCF13003A577C /* PostCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEAC8071A1BCF13003A577C /* PostCardTests.swift */; };
+		3CEAC8121A1BD59B003A577C /* Portland-mag.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 3CEAC8111A1BD59B003A577C /* Portland-mag.JPG */; };
+		3CEAC8161A1C258A003A577C /* Portland-donut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3CEAC8151A1C258A003A577C /* Portland-donut.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		3CEAC8011A1BCF13003A577C /* PostCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CEAC8061A1BCF13003A577C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CEAC8071A1BCF13003A577C /* PostCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCardTests.swift; sourceTree = "<group>"; };
+		3CEAC8111A1BD59B003A577C /* Portland-mag.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Portland-mag.JPG"; sourceTree = "<group>"; };
+		3CEAC8151A1C258A003A577C /* Portland-donut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Portland-donut.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		3CEAC7EF1A1BCF13003A577C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3CEAC8151A1C258A003A577C /* Portland-donut.jpg */,
+				3CEAC8111A1BD59B003A577C /* Portland-mag.JPG */,
 				3CEAC7F01A1BCF13003A577C /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -192,7 +198,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CEAC8161A1C258A003A577C /* Portland-donut.jpg in Resources */,
 				3CEAC7F71A1BCF13003A577C /* Main.storyboard in Resources */,
+				3CEAC8121A1BD59B003A577C /* Portland-mag.JPG in Resources */,
 				3CEAC7FC1A1BCF13003A577C /* LaunchScreen.xib in Resources */,
 				3CEAC7F91A1BCF13003A577C /* Images.xcassets in Resources */,
 			);
